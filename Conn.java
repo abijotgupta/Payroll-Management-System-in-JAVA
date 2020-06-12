@@ -12,7 +12,7 @@ public class Conn {
 		try {
 		//	Class.forName("com.mysql.cj.jdbc.Driver");    //.cj is new
 			
-			c = DriverManager.getConnection("jdbc:mysql://localhost:3306/payroll","root","abijot125");
+			c = DriverManager.getConnection("jdbc:mysql://localhost:3306/payroll","root","your_database_password");
 			//System.out.println("Connection established");
 			s = c.createStatement();
 			//System.out.println("Statement created");
